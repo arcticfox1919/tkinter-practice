@@ -1,7 +1,6 @@
-# tkinter-practice
-# tkinter 实战项目
+## tkinter 实战项目
 
-## 自制文本编辑器
+### 自制文本编辑器
 
 ![Editor](https://github.com/arcticfox1919/ImageHosting/blob/master/Snipaste_2019-04-18_21-30-18.jpg?raw=true)
 

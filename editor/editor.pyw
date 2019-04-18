@@ -87,7 +87,7 @@ class EditorPlus(Tk):
 
     # 创建快捷菜单栏
     def _create_shortcut_bar_(self):
-        shortcut_bar = Frame(self, height=25, background='light sea green')
+        shortcut_bar = Frame(self, height=25, background='#20b2aa')
         shortcut_bar.pack(fill='x')
 
         for i, icon in enumerate(ICONS):
@@ -102,7 +102,7 @@ class EditorPlus(Tk):
     def _create_body_(self):
         # 创建行号栏 （takefocus=0 屏蔽焦点）
         self.line_number_bar = Text(self, width=4, padx=3, takefocus=0, border=0,
-                                    background='khaki', state='disabled')
+                                    background='#F0E68C', state='disabled')
         self.line_number_bar.pack(side='left', fill='y')
         # 创建文本输入框(undo是否启用撤销机制)
         self.content_text = Text(self, wrap='word', undo=True)
@@ -119,7 +119,7 @@ class EditorPlus(Tk):
         self.content_text.bind('<Control-F>', self.find_text)
         self.content_text.bind('<Any-KeyPress>', lambda e: self._update_line_num())
         self.bind_all('<KeyPress-F1>', lambda e: self.show_messagebox("帮助"))
-        self.content_text.tag_configure('active_line', background='ivory2')
+        self.content_text.tag_configure('active_line', background='#EEEEE0')
 
         # 创建滚动条
         scroll_bar = Scrollbar(self.content_text)

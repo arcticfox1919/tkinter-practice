@@ -146,6 +146,10 @@ class EditorPlus(Tk):
             self.line_number_bar.delete('1.0', 'end')
             self.line_number_bar.insert('1.0', line_num_content)
             self.line_number_bar.config(state='disabled')
+        else:
+            self.line_number_bar.config(state='normal')
+            self.line_number_bar.delete('1.0', 'end')
+            self.line_number_bar.config(state='disabled')
 
     def _toggle_highlight(self):
         if self.is_highlight_line.get():

@@ -6,3 +6,4 @@
 
  [源码](https://github.com/arcticfox1919/tkinter-practice/tree/master/editor)
 
+[视频教程](https://study.163.com/course/courseMain.htm?courseId=1209232809&share=2&shareId=480000001855430)

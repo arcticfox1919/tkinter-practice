@@ -11,7 +11,6 @@ class EditorPlus(Tk):
 
     def __init__(self):
         super().__init__()
-        self.tool_icon = PhotoImage(file='img/open_file.gif')
         self._set_window_()
         self._create_menu_bar_()
         self._create_shortcut_bar_()

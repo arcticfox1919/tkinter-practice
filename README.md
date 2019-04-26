@@ -10,6 +10,9 @@
 
 
 ### Python流媒体播放器（基于VLC）
+
+支持本地音频文件与在线流媒体播放。本例使用网易云音乐接口
+
 ![player](https://github.com/arcticfox1919/ImageHosting/blob/master/Snipaste_2019-04-26_22-36-07.jpg?raw=true)
 
 请先前往VLC官网下载相应的二进制文件，并解压到工程根目录下

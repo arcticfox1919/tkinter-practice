@@ -16,10 +16,11 @@
 ![player](https://github.com/arcticfox1919/ImageHosting/blob/master/Snipaste_2019-04-26_22-36-07.jpg?raw=true)
 
 请先前往VLC官网下载相应的二进制文件，并解压到工程根目录下
-详细教程，阅览本人博客 [传送门](https://blog.csdn.net/yingshukun/article/details/89527561)
 
 `resource.py`中有如下路径设置
 
 ```
 PYTHON_VLC_MODULE_PATH = "vlc-3.0.6"
 ```
+
+详细教程，请阅览本人博客 [传送门](https://blog.csdn.net/yingshukun/article/details/89527561)

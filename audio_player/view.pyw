@@ -64,7 +64,7 @@ class AudioView(Tk):
                               command=lambda: self.show_dialog("dir"))
 
         file_menu.add_separator()
-        file_menu.add_command(label='退出', accelerator='Alt+F4')
+        file_menu.add_command(label='退出', accelerator='Alt+F4', command=self.exit_player)
 
         menu_bar.add_cascade(label='文件', menu=file_menu)
 

@@ -4,7 +4,6 @@ from tkinter.font import Font
 from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk
 from resource import *
-from io import BytesIO as Bytes2Data
 from seekbar import Seekbar
 from player import Player
 from audio_visual import AudioVisual
@@ -219,7 +218,7 @@ class AudioView(Tk):
         self.context_menu.add_command(label="删除")
 
     def show_context_menu(self, event):
-        # 清楚鼠标右键选中色
+        # 清除鼠标右键选中色
         for i in range(self.list_box.size()):
             self.list_box.itemconfig(i, background="black")
 
@@ -324,10 +323,6 @@ class AudioView(Tk):
 
     def _play_audio(self):
         self.player.play_at(self.current_selected)
-
-    def _update_progressbar(self):
-        self.seek_bar.move_to_position(self.player.get_position() * SEEKBAR_WIDTH)
-        self.after(1000, self._update_progressbar)
 
     def seek_new_position(self, event):
         value = event.x / SEEKBAR_WIDTH

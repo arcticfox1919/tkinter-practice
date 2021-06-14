@@ -2,6 +2,11 @@
 
 [**本项目视频教程**](https://study.163.com/course/courseMain.htm?courseId=1209232809&share=2&shareId=480000001855430)
 
+**扫描二维码，进入我的网校，查看更多课程**
+
+![](https://gitee.com/arcticfox1919/ImageHosting/raw/master/img/qr_adv.png)
+
+
 ### 自制文本编辑器
 
 ![Editor](https://github.com/arcticfox1919/ImageHosting/blob/master/Snipaste_2019-04-18_21-30-18.jpg?raw=true)

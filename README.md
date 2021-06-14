@@ -27,4 +27,6 @@ PYTHON_VLC_MODULE_PATH = "vlc-3.0.6"
 
 [**本项目视频教程**](https://study.163.com/course/courseMain.htm?courseId=1209232809&share=2&shareId=480000001855430)
 
+------
+
 关于课程中自定义控件的实现，请查看[这里](https://github.com/arcticfox1919/tkinter-tabview)
